@@ -2,7 +2,7 @@
 
 # Copy over the xbox component
 mkdir -p /config/custom_components/xboxone
-cp -R custom_components /config/custom_components/xboxone/
+cp -R component /config/custom_components/xboxone/
 
 # Persistent tokens on reboot
 touch /config/.xbox-token.json
